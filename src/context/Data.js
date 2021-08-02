@@ -41,54 +41,48 @@ export const Devskills=[
     },
     {
         id:2,
-        title:'JAVASCRIPT',
+        title:'REACT JS',
         percent:'sixty',
         number:'60%'
     },
     {
         id:3,
-        title:'REACT',
-        percent:'sixty',
-        number:'60%'
+        title:'PYHTON(DJANGO)',
+        percent:'eighty',
+        number:'80%'
     },
     {
         id:4,
-        title:'PYHTON',
-        percent:'eighty',
-        number:'80%'
+        title:'PHP(LARAVEL)',
+        percent:'fifty',
+        number:'50%'
     },
     {
         id:5,
-        title:'DJANGO',
-        percent:'eighty',
-        number:'80%'
+        title:'REST API',
+        percent:'seventy',
+        number:'70%'
     },
     {
         id:6,
-        title:'PHP',
-        percent:'fifty',
-        number:'50%'
-    },
-    {
-        id:7,
-        title:'LARAVEL',
-        percent:'fifty',
-        number:'50%'
-    },
-    {
-        id:8,
         title:'MYSQL',
         percent:'seventy',
         number:'70%'
     },
     {
-        id:9,
+        id:7,
+        title:'GIT',
+        percent:'seventy',
+        number:'70%'
+    },
+    {
+        id:8,
         title:'BOOTSTRAP',
         percent:'sixty',
         number:'60%'
     },
     {
-        id:10,
+        id:9,
         title:'WORDPRESS',
         percent:'sixty',
         number:'60%'
