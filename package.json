@@ -1,6 +1,6 @@
 {
-  "hompage": "http://Bamideleo.github.io/my-portfilo",
-  "name": "my-portfilio",
+  "hompage": "http://samsonatere.github.io/portfilo",
+  "name": "portfilio",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,6 +13,7 @@
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
     "react-scroll": "^1.8.1",
+    "react-typed": "^1.2.0",
     "styled-components": "^5.2.1",
     "web-vitals": "^0.2.4"
   },
