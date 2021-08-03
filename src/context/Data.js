@@ -149,47 +149,44 @@ export const Projects=[
         extlink:'https://aterenews.herokuapp.com/',
         gitlink:'https://github.com/samsonatere/NewsApp',
         img:'/projectimg/project1.jpeg',
-        title:'News blog',
+        title:'Atere Newspaper',
         btnTitle:'portfolio'
     },
     {
         id:2,
         extlink:'https://safe-ride.netlify.app/#/',
-        gitlink:'https://github.com/Bamideleo/safe-rider',
         img:'/projectimg/safe.png',
         title:'Safe Ride',
         btnTitle:'portfolio'
     },
     {
         id:3,
-        extlink:'https://my-protfilio.netlify.app/',
-        gitlink:'https://github.com/Bamideleo/my-portfolio',
+        extlink:'https://atereporfolio.netlify.app/',
+        gitlink:'https://github.com/samsonatere/Portfolio',
         img:'/projectimg/logo4.png',
-        title:'My Portfolio',
+        title:'Atere Portfolio',
         btnTitle:'portfolio'
     },
     {
         id:4,
-        extlink:'https://bamz-resort.netlify.app/',
-        gitlink:'https://github.com/Bamideleo/bamz-resort ',
-        img:'/projectimg/details-3.jpeg',
-        title:'Hotel Resort',
+        extlink:'https://documenter.getpostman.com/view/16214729/Tzm9kuqJ',
+        gitlink:'https://github.com/samsonatere/spaces.ng-be-pjt-44 ',
+        img:'/projectimg/project4.jpeg',
+        title:'SpaceNg',
         btnTitle:'portfilo'
     },
     {
         id:5,
-        extlink:'https://bamz-resort.netlify.app/',
-        gitlink:'https://github.com/Bamideleo/bamz-resort ',
-        img:'/projectimg/details-2.jpeg',
-        title:'Hotel Resort',
+        extlink:'https://propertyhunt.ng/',
+        img:'/projectimg/project5.jpeg',
+        title:'PropertyHunt',
         btnTitle:'portfolio'
     },
     {
         id:6,
-        extlink:'http://bamz-resort.netlify.app/',
-        gitlink:'https://github.com/Bamideleo/bamz-resort ',
-        img:'/projectimg/room-4.jpeg',
-        title:'Hotel Resort',
+        extlink:'https://drive.google.com/drive/folders/1JvpchDdH3H5URHF6drB-GNq0038kREIL?usp=sharing/',
+        img:'/projectimg/project6.jpg',
+        title:'APPLICATION OF DEEP LEARNING ALGORITHM',
         btnTitle:'portfolio'
     },
 ]
