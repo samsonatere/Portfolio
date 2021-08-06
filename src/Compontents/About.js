@@ -13,29 +13,29 @@ function About() {
             return(
     <section className="about">
 <div className="container">
-    <Title title="About" color={setClass?"red":"gray"}/>
-    <div className="about-center">
-        <div className="about-logo">
+    <Title title="About" color={setClass?"orange":"gray"}/>
+    <div className="row about-center">
+        <div className="col-lg-4 about-logo">
             <img src={MyPd} alt="img"/>
         </div>
-        <div className={setClass?"about-text dark-mode-white":"about-text"}>
+        <div className={setClass?"about-text dark-mode-white":"col-lg-8 about-text"}>
             <div className={setClass?"dark-mode-orange":"profile"}>
                 <h2>My profile</h2>
             </div>
-            <div className="name">
+            <div className="details">
                 <p><span className={setClass?"dark-mode-orange":""}>name:</span> Samson Dayo Atere</p>
             </div>
-            <div className="age">
-                <p><span className={setClass?"dark-mode-orange":""}>birthday:</span> 9, September</p>
+            <div className="details">
+                <p><span className={setClass?"dark-mode-orange":""}>location:</span> Lagos, nigeria.</p>
             </div>
-            <div className="address">
-                <p><span className={setClass?"dark-mode-orange":""}>address:</span> 9, Ajike close, Amje Alimosho, Lagos.</p>
-            </div>
-            <div className="email">
+            <div className="details">
                 <p><span className={setClass?"dark-mode-orange":""}>email:</span><a href="mailto:samsonatere24@gmail.com"> samsonatere24@gmail.com</a></p>
             </div>
-            <div className="phone">
+            <div className="details">
                 <p><span className={setClass?"dark-mode-orange":""}>mobile no:</span > <a href="tel:+2349036649975">+2349036649975</a>, +2348036350437</p>
+            </div>
+            <div className="cv">
+                <p><a class="btn btn-primary" href="https://drive.google.com/file/d/1wuftftGD_PDaVI3ZqdCI0QTWoetZCmNC/view">Download Resume</a></p>
             </div>
             <div className="social-media">
                <a href="https://www.linkedin.com/in/samson-atere-1778a4127/" target="_blank" rel="noopener noreferce">
@@ -51,18 +51,21 @@ function About() {
             </div>
         </div>
     </div>
-    <div className={setClass?"dark-mode-lightwhite generally":"generally"}>
-        <span>Geneally,</span><p>I am a Software Developer with a background in Physics and Electronics. 
-            I see technology has a canvas upon which the human imagination is painted and a tools to solve diverse problems.
-            I'm proficient in Python/PHP and work daily with popular frameworks (Django/Laravel) 
-            Having work with a team of developers i know the need for teamwork and communication. I am open to solving problems with you</p>
-    <div className="certificate">
-        <h4>My Certificate</h4>
-        <p>* B.Sc.(Hons) Physics and Electronics at Adekule Ajasin University</p>
-        <p>* Member of Nigerian Institute of Management Certificate</p>
-        <p>* Jobberman Soft-Skills Certificate</p>
-        <p>* The Fundamental of Digital Marketing skills (Google Digital Skills for Africa).</p>
-    </div>
+    <div className={setClass?"dark-mode-lightwhite generally":"row generally"}>
+        <div className ="col-lg-12 me">
+        <span>Geneally,</span><p>I am an enthusiastic and auto-didactic Software Developer with an educational background in Physics and Electronics. 
+            Expertise in Object-Oriented Design and Analysis, Database modeling/design, building robust enterprise web applications and backend services/APIs 
+            using the core Python(Django) technology stacks to solve problems in education, health, the banking/financial services and custom business process automation.</p>
+            <p>I see technology has a canvas upon which the human imagination is painted and a tools to solve diverse problems.</p>
+             <p>Having work with a team of developers i know the need for teamwork and communication. I am open to solving problems with you</p>
+        </div>
+        <div className="col-lg-12 certificate">
+            <h4>My Certificate</h4>
+            <p>* B.Sc.(Hons) Physics and Electronics at Adekule Ajasin University</p>
+            <p>* Member of Nigerian Institute of Management Certificate</p>
+            <p>* Jobberman Soft-Skills Certificate</p>
+            <p>* The Fundamental of Digital Marketing skills (Google Digital Skills for Africa).</p>
+        </div>
     </div>
 </div>
     </section>

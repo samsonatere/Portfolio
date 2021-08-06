@@ -141,6 +141,12 @@ export const Soft=[
         percent:'eighty',
         number:'80%'
     },
+    {
+        id:5,
+        title:'PRODUCT MANAGEMENT',
+        percent:'seventy',
+        number:'70%'
+    },
 ]
 // project section
 export const Projects=[

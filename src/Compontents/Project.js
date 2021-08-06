@@ -10,11 +10,11 @@ function Project() {
             return(
                 <div className="projects">
                     <div className="projects-container">
-                    <Title title="project" color={setClass?"red":"gray"}/>
-                    <div className="projects-center">
+                    <Title title="project" color={setClass?"orange":"gray"}/>
+                    <div className="row projects-center">
                 {value.Projects.map(item=>{
                         return(
-                            <div className="single-projects" key={item.id}>
+                            <div className="col-lg-4 single-projects" key={item.id}>
                                 <a href={item.extlink} target="_blank" rel="noopener noreferrer">
                                 <img src={item.img} alt="img"/>
                                 </a>

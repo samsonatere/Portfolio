@@ -21,7 +21,7 @@ function Contact() {
                    const {setClass} = value
                 return(
                     <>
-                     <Title title="Contact" color={setClass?"red":"gray"}/>
+                     <Title title="Contact" color={setClass?"orange":"gray"}/>
                      <div className="contact">
                          <div className="container">
                              <div className="contact-center">
@@ -53,6 +53,8 @@ function Contact() {
                                         <h3>Hotline</h3>
                                         <li><a href="tel:+2349036649975" target="_blank" rel="noopener noreferce">
                                         <i class="fa fa-phone" aria-hidden="true"></i> (+234)9036649975</a></li>
+                                        <li><a href="https://wa.link/xg8esi" target="_blank" rel="noopener noreferce">
+                                        <i class="fab fa-whatsapp"></i> WhatsApp</a></li>
                                      </div>
                                  </div>
                              </div>

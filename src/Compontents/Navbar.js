@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import styled from 'styled-components';
 import {scroller} from 'react-scroll';
 import {DataConsumer} from '../context/Context';
-import logo from '../images/logo3.png';
+import logo from '../images/logo.png';
 
 function Navbar() {
 
