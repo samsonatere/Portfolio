@@ -22,8 +22,7 @@ function Contact() {
                 return(
                     <>
                      <Title title="Contact" color={setClass?"orange":"gray"}/>
-                     <div className="contact">
-                         <div className="container">
+                     <div className=" container contact">
                              <div className="contact-center">
                                  <div className="contact-link">
                                      <div className="links-item">
@@ -58,7 +57,6 @@ function Contact() {
                                      </div>
                                  </div>
                              </div>
-                         </div>
                      </div>
                      <div className="created">
                          <div className="container copy">

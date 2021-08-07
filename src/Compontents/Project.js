@@ -8,8 +8,7 @@ function Project() {
         (value)=>{
             const {setClass} = value
             return(
-                <div className="projects">
-                    <div className="projects-container">
+                <div className="container">
                     <Title title="project" color={setClass?"orange":"gray"}/>
                     <div className="row projects-center">
                 {value.Projects.map(item=>{
@@ -31,7 +30,6 @@ function Project() {
                         )
                     })
                 }
-                    </div>
                     </div>
                 </div>
     
