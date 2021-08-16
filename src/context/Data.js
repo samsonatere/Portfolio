@@ -41,7 +41,7 @@ export const Devskills=[
     },
     {
         id:2,
-        title:'REACT JS',
+        title:'JAVASCRIPT',
         percent:'sixty',
         number:'60%'
     },
@@ -65,7 +65,7 @@ export const Devskills=[
     },
     {
         id:6,
-        title:'MYSQL',
+        title:'SQL',
         percent:'seventy',
         number:'70%'
     },
@@ -156,14 +156,15 @@ export const Projects=[
         gitlink:'https://github.com/samsonatere/NewsApp',
         img:'/projectimg/project1.jpeg',
         title:'Atere Newspaper',
-        btnTitle:'portfolio'
+        btnTitle:'Blog App'
     },
     {
         id:2,
-        extlink:'https://safe-ride.netlify.app/#/',
-        img:'/projectimg/safe.png',
-        title:'Safe Ride',
-        btnTitle:'portfolio'
+        extlink:'https://dayocom.herokuapp.com/',
+        gitlink:'https://github.com/samsonatere/Dcom',
+        img:'/projectimg/dcom.jpg',
+        title:'Dcom',
+        btnTitle:'Ecommerce'
     },
     {
         id:3,
@@ -179,20 +180,20 @@ export const Projects=[
         gitlink:'https://github.com/samsonatere/spaces.ng-be-pjt-44 ',
         img:'/projectimg/project4.jpeg',
         title:'SpaceNg',
-        btnTitle:'portfilo'
+        btnTitle:'workspace'
     },
     {
         id:5,
-        extlink:'https://propertyhunt.ng/',
-        img:'/projectimg/project5.jpeg',
-        title:'PropertyHunt',
-        btnTitle:'portfolio'
+        extlink:'https://safe-ride.netlify.app/#/',
+        img:'/projectimg/safe.png',
+        title:'Safe Ride',
+        btnTitle:'Transport'
     },
     {
         id:6,
-        extlink:'https://drive.google.com/drive/folders/1JvpchDdH3H5URHF6drB-GNq0038kREIL?usp=sharing/',
-        img:'/projectimg/project6.jpg',
-        title:'APPLICATION OF DEEP LEARNING ALGORITHM',
-        btnTitle:'portfolio'
+        extlink:'https://propertyhunt.ng/',
+        img:'/projectimg/project5.jpeg',
+        title:'PropertyHunt',
+        btnTitle:'Real Estate'
     },
 ]

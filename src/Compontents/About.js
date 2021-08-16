@@ -61,10 +61,11 @@ function About() {
         </div>
         <div className="col-lg-12 certificate">
             <h4>My Certificate</h4>
-            <p>* B.Sc.(Hons) Physics and Electronics at Adekule Ajasin University</p>
-            <p>* Member of Nigerian Institute of Management Certificate</p>
-            <p>* Jobberman Soft-Skills Certificate</p>
-            <p>* The Fundamental of Digital Marketing skills (Google Digital Skills for Africa).</p>
+            <p>&#x2192; B.Sc.(Hons) Physics and Electronics at Adekule Ajasin University</p>
+            <p>&#x2192; Member of Nigerian Institute of Management Certificate</p>
+            <p>&#x2192; Website Design and Development (SideHustle)</p>
+            <p>&#x2192; Jobberman Soft-Skills Certificate</p>
+            <p>&#x2192; The Fundamental of Digital Marketing skills (Google Digital Skills for Africa).</p>
         </div>
     </div>
 </div>
