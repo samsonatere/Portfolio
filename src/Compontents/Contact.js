@@ -22,8 +22,10 @@ function Contact() {
                 return(
                     <>
                      <Title title="Contact" color={setClass?"orange":"gray"}/>
+
                      <div class="container">
-                        <form name="contact" method="POST" data-netlify="true">
+                        <form name="contact" method="POST" data-netlify="true" onSubmit='submit'>
+                        <input type="hidden" name="form-name" value="contact" />
                         <div class="mb-3" >
                             <label class="form-label">Your Name: </label>   
                             <input class="form-control" type="text" name="name" />
@@ -41,6 +43,7 @@ function Contact() {
                         </div>
                         </form>
                     </div>
+                    <br />
                      <div className="contact">
                              <div className="contact-center">
                                  <div className="contact-link">
