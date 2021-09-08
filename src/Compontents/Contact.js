@@ -22,7 +22,26 @@ function Contact() {
                 return(
                     <>
                      <Title title="Contact" color={setClass?"orange":"gray"}/>
-                     <div className=" container contact">
+                     <div class="container">
+                        <form name="contact" method="POST" data-netlify="true">
+                        <div class="mb-3" >
+                            <label class="form-label">Your Name: </label>   
+                            <input class="form-control" type="text" name="name" />
+                        </div>
+                        <div class="mb-3" >
+                            <label class="form-label">Your Email: </label>
+                            <input class="form-control" type="email" name="email" />
+                        </div>
+                        <div class="mb-3" >
+                            <label class="form-label">Message: </label>
+                            <textarea class="form-control" name="message"></textarea>
+                        </div>
+                        <div>
+                            <button type="submit" class="btn btn-primary">Send</button>
+                        </div>
+                        </form>
+                    </div>
+                     <div className="contact">
                              <div className="contact-center">
                                  <div className="contact-link">
                                      <div className="links-item">

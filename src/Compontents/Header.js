@@ -10,7 +10,7 @@ function Header() {
               (value)=>{
                   const {setClass,darkMode} = value;
                   return(
-                      <div className="container">
+                      <div className="">
                       <section className="header">
                           <img src={HeadImg} alt="img"/>
                           <div className=" header-container">
